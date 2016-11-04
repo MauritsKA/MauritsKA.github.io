@@ -2,30 +2,21 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-container {
+html,
+
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
    min-height:100%;
    position:relative;
 }
-
-body {
-  margin:0;
-   padding:0;
-   height:100%;
-  font-family: 'calibri', sans-serif;
-  font-weight: 300;
-  
-}
-
-header {
- background:#ff0;
+#header {
+   background:#ff0;
    padding:10px;
 }
-
-
-h1 {
-text-align: center;
-}
-
 #body {
    padding:10px;
    padding-bottom:60px;   /* Height of the footer */
@@ -37,11 +28,3 @@ text-align: center;
    height:60px;   /* Height of the footer */
    background:#6cf;
 }
-
-  footer {
-    position:fixed;
-    bottom:0;
-    font-size: 12px;
-  padding: 20px 0;
-}
-
