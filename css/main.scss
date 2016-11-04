@@ -1,8 +1,6 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-@charset "utf-8";
-html,
+* {
+  box-sizing: border-box;
+}
 
 body {
    margin:0;
@@ -33,7 +31,7 @@ body {
 
 h1 {
   color: #004E89;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-size: 50px;
   font-weight: 400;
   margin: 0;
@@ -42,7 +40,7 @@ h1 {
 
 h2 {
   color: #AAA;
-  font-family: 'Yantramanav', sans-serif;
+  font-family: 'Calibri', sans-serif;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
