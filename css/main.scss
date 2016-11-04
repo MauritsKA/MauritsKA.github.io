@@ -18,27 +18,7 @@ background-color:white;
 .jumbotron {
   background: url('http://www.paulreiffer.com/wp-content/uploads/2012/01/Paul_Reiffer_Photographer_San_Francisco_Bay_Bridge_Cityscape_Treasure_Island_Sunset_Night_Time.jpg') no-repeat center center;
   background-size: cover;
-  height: 800px;
-}
-
-.header {
-  background-color: #333;
-}
-
-.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 20px 0;
-}
-
-.nav li {
-  color: #fff;
-  display: inline;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  margin-right: 25px;
-  text-transform: uppercase;
+  height: 100%;
 }
 
 .main {
@@ -54,6 +34,16 @@ background-color:white;
   font-size: 70px;
   margin-top: 0;
   margin-bottom: 80px;
+  text-transform: uppercase;
+}
+.main h2 {
+  color: white;
+  font-family: 'calibri', sans-serif;
+  text-transform: uppercase;
+}
+.main p {
+  color: white;
+  font-family: 'calibri', sans-serif;
   text-transform: uppercase;
 }
 
