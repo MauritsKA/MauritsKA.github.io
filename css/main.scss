@@ -48,51 +48,13 @@ background_color:white;
 }
 
 .main h1 {
-  color: #333;
+  color: white;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 70px;
   margin-top: 0;
   margin-bottom: 80px;
   text-transform: uppercase;
-}
-
-.btn-main {
-  background-color: #333;
-  color: #fff;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  letter-spacing: 1.3px;
-  padding: 16px 40px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.btn-default {
-  border: 1px solid #333;
-  color: #000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 10px;
-  letter-spacing: 1.3px;
-  padding: 10px 20px;
-  text-decoration: none;
-  text-transform: uppercase;  
-  display: inline-block;
-  margin-bottom: 20px;      
-}
-
-.supporting {
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
-
-.supporting .col {
-  float: left;
-  width: 33%;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
 }
 
 .supporting img {
@@ -113,9 +75,6 @@ background_color:white;
   margin-bottom: 40px;
 }
 
-.clearfix {
-  clear: both;
-}
 
 .footer {
   background-color: #333;
