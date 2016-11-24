@@ -7,81 +7,59 @@ html, body {
   padding: 0;
   height: 100%;
 }
-}
+
 
 .container {
   max-width: 940px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
+    text-align: center;
+    margin-bottom: 180px;
 }
 
-position:fixed;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    right:0px;
 
 .jumbotron {
-  background: url('http://www.paulreiffer.com/wp-content/uploads/2012/01/Paul_Reiffer_Photographer_San_Francisco_Bay_Bridge_Cityscape_Treasure_Island_Sunset_Night_Time.jpg') 
-    no-repeat center center;
+  display: flex;
+  align-items: center;
+  background-image: url('http://www.paulreiffer.com/wp-content/uploads/2012/01/Paul_Reiffer_Photographer_San_Francisco_Bay_Bridge_Cityscape_Treasure_Island_Sunset_Night_Time.jpg');
   background-size: cover;
-  height:90%;
-  
-}
+  color: black;
+  height: 90%;
+  }
 
-.main {
-  position: relative;
-  top: 180px;
-  text-align: center;
-}
-
-.main h1 {
-  color: white;
+h1 {
+  color:white;
+  font-size: 60px;
+  font-weight: 700;
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  font-size: 70px;
-  margin-top: 0;
-  margin-bottom: 80px;
-  text-transform: uppercase;
-}
-.main h2 {
+  margin: 20px;
   color: white;
-  font-family: 'calibri', sans-serif;
-  text-transform: uppercase;
-}
-.main p {
-  color: white;
-  font-family: 'calibri', sans-serif;
-  text-transform: uppercase;
 }
 
-.supporting img {
-  height: 32px;
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  color: #fff;
+    
 }
 
-.supporting h2 {
-  font-weight: 600;
-  font-size: 23px;
-  text-transform: uppercase;
-}
-
-.supporting p {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 0 50px;
-  margin-bottom: 40px;
-}
-
-.clearfix {
-  clear: both;
+h3 {
+  margin: 0 0 20px;
+font-family: 'Raleway', sans-serif;
+  color: #fff;
+    margin-top: 20px;
 }
 
 
 .footer {
   background-color: #333;
   color: #fff;
-  padding: 2.2% 0;
+    margin: 0 auto;
+    padding: 2.5% 0; 
+ 
+ 
 }
 
 .footer p {
